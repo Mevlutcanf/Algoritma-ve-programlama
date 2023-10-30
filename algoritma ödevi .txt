@@ -1,0 +1,65 @@
+1. algoritma nedir? avantajlarý ve gerekliliði 
+-bilgisayardaki iþlemleringerçekleþtirilmesinde izlenecek adýmalra algoritma denir. aloritma belirli bir problemi çözmek veya çözüme ulaþtýrmaktýr. Avantajarý ve gerekliliði ise bir iþi daha kolaylaþtýrmak ve çözüme giderken hýzlandýrmak.
+
+2.program yazýlmadan önce algoritma mý yoksa akýþ diyagramý mý çizilmeli?
+-Bence ilk olarak algoritma yazýlýp sonradan akýþ diyagramý hazýrlanmalý. Çünkü ilk önce kod benzeri metinlerle daha anlaþýlýr olucaðý kanýtýndayým.
+
+3. Algoritma hazýrlanýrken dikkat edilmesi gereken hususlar
+-Ýlk önce hangi problem hakkýnda yapýlmasý gereken bir plan yapýlmalý sonrasýnda net ve anlaþýlýr þekilde yazýlmalýdýr. sonrasýnda adýmlar sýrasýyla yapýlmalýdýr ki karýþmasýn. Operatörler doðru bir biçimde kullanýlmalýdýr. hata kontrolleri yapýlmalýdýr ki algoritmamýz çalýþmasý için. GEreksiz adýmlar yerine kýsa ve öz yazýlmalýdýr. Algoritma tasarlarken bu temel hususlara dikkat etmek, kodun daha okunaklý, düzgün çalýþan ve bakýmý kolay bir þekilde oluþturulmasýna yardýmcý olur.
+
+4.deðiþken nedir? programlarda neden deðiþkenlere ihtiyaç duyulmaktadýr?
+-Programýn her çalýþtýrlmasýnda, farklý deðerler alabilþen bellek/veri/bilgi alanlarý "deðiþken" olarak adlandýrýlýr. Kod da daha anlaþýlýr olmasýný saðlar. örneðin koddaki 'yaþýnýz' 'adýnýzsoyadýnýz' gibi deðerleri oluþturur.
+
+5. Sayaçlar nerelerde ve niçin kullanýlýr?
+Programlarda bazý iþlemlerin belirli sayýda yapýlmasý sayýlmasý gerekebilir. Örneðin bir sessiz harf bulma programý ilk önce harfleri sýraylarý çaðýrýr ardýndan sessiz mi yoksa sesli harf mi olduðuna karar vererek kümeler.
+
+6. Algoritmanýn sonucunu bulun.
+baþla
+T=0
+S=0
+eðer s>10 ise git 8 
+T=T+2*S
+S=S+2
+Git 4
+Yaz T
+Dur 
+T ve S'nin baþlangýçtaki deðeri 0 olur ardýndan her S>10 olduðu zaman s 8' e gider. Ancak bu þart hiçbir zaman saðlanmayacak, çünkü S baþlangýçta 0'dýr ve her adýmda 2 birim artar. Yani S her zaman 10'dan küçük olacaktýr. T deðiþkenine, 2 ile S deðiþkeninin çarpýmý eklenir. Baþlangýçta T=0 ve S=0 olduðu için bu iþlem T'yi deðiþtirmez. git 4 ise 4. adýma git demektir. YAz T ise T'yi yazdýr demektir.T her zaman 80 olacaktýr çünkü S her zaman 10'dan küçük olacaktýr. dur ise algoritmayý sonlandýrýr. Son olarak T=0 
+
+7. Algoritmanýn sonucunu hesaplayýnýz.
+Baþla
+F=1
+S=20
+eðer S<1 ise git 9 
+S=S-3
+F=F+S
+F=F+2
+GÝt 4 
+yaz F 
+Dur
+S=20 olduðu için sürekli 3 azalarak ielrleyecektir. Her adýmda ise F'ye S eklenecek ve F'ye de 2 eklenekcektir. bunlarýn hepsi yapýldýðýnda ise F=20 olarak yazdýrýlýr ve tamamlanýr.
+
+8. girilen 3 sayýdan en büyünü bulan algoritma hazýrlayýnýz
+baþla 
+1. sayý=A 
+2. sayý=B
+3. sayý=C
+Eðer A>b ve A>C ise en büyük sayý yazdýr ve bitir
+Eðer B>A ve B>C ise en büyük sayý yazdýr bitir
+Eðer C>A ve C>B ise en büyük sayý yazdýr bitir
+Dur 
+
+9. Girilen 3 sayýyý küçükten büyüðe doðru sýrala
+baþla 
+1. sayý=A 
+2. sayý=B
+3. sayý=C
+Eðer A>b ve A>C ise en büyük sayý yazdýr ve bitir
+Eðer A<b ve A<C ise en küçük sayý yazdýr ve bitir
+eðer A<B A>C veya A>B A<c ise ortanca sayý olarak yazdýr 
+Eðer B>A ve B>C ise en büyük sayý yazdýr bitir
+Eðer B<A ve B<C ise en küçük sayý yazdýr bitir
+Eðer B<A B>C veya B>A B<C ise ortanca sayý yazdýr
+Eðer C>A ve C>B ise en büyük sayý yazdýr bitir
+Eðer C<A ve C<B ise en küçük sayý yazdýr bitir
+Eðer C>A C<B veya C<A C>B ise ortanca sayý yazdýr 
+Dur 
