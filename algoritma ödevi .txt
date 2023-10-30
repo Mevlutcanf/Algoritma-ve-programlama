@@ -1,65 +1,110 @@
-1. algoritma nedir? avantajları ve gerekliliği 
--bilgisayardaki işlemleringerçekleştirilmesinde izlenecek adımalra algoritma denir. aloritma belirli bir problemi çözmek veya çözüme ulaştırmaktır. Avantajarı ve gerekliliği ise bir işi daha kolaylaştırmak ve çözüme giderken hızlandırmak.
+1. algoritma nedir? avantajlarÄ± ve gerekliliÄŸi 
 
-2.program yazılmadan önce algoritma mı yoksa akış diyagramı mı çizilmeli?
--Bence ilk olarak algoritma yazılıp sonradan akış diyagramı hazırlanmalı. Çünkü ilk önce kod benzeri metinlerle daha anlaşılır olucağı kanıtındayım.
 
-3. Algoritma hazırlanırken dikkat edilmesi gereken hususlar
--İlk önce hangi problem hakkında yapılması gereken bir plan yapılmalı sonrasında net ve anlaşılır şekilde yazılmalıdır. sonrasında adımlar sırasıyla yapılmalıdır ki karışmasın. Operatörler doğru bir biçimde kullanılmalıdır. hata kontrolleri yapılmalıdır ki algoritmamız çalışması için. GEreksiz adımlar yerine kısa ve öz yazılmalıdır. Algoritma tasarlarken bu temel hususlara dikkat etmek, kodun daha okunaklı, düzgün çalışan ve bakımı kolay bir şekilde oluşturulmasına yardımcı olur.
+-bilgisayardaki iÅŸlemleringerÃ§ekleÅŸtirilmesinde izlenecek adÄ±malara algoritma denir. 
+aloritma belirli bir problemi Ã§Ã¶zmek veya Ã§Ã¶zÃ¼me ulaÅŸtÄ±rmaktÄ±r. 
+AvantajarÄ± ve gerekliliÄŸi ise bir iÅŸi daha kolaylaÅŸtÄ±rmak ve Ã§Ã¶zÃ¼me giderken hÄ±zlandÄ±rmak.
 
-4.değişken nedir? programlarda neden değişkenlere ihtiyaç duyulmaktadır?
--Programın her çalıştırlmasında, farklı değerler alabilşen bellek/veri/bilgi alanları "değişken" olarak adlandırılır. Kod da daha anlaşılır olmasını sağlar. örneğin koddaki 'yaşınız' 'adınızsoyadınız' gibi değerleri oluşturur.
 
-5. Sayaçlar nerelerde ve niçin kullanılır?
-Programlarda bazı işlemlerin belirli sayıda yapılması sayılması gerekebilir. Örneğin bir sessiz harf bulma programı ilk önce harfleri sırayları çağırır ardından sessiz mi yoksa sesli harf mi olduğuna karar vererek kümeler.
+2.program yazÄ±lmadan Ã¶nce algoritma mÄ± yoksa akÄ±ÅŸ diyagramÄ± mÄ± Ã§izilmeli?
 
-6. Algoritmanın sonucunu bulun.
-başla
+
+-Bence ilk olarak algoritma yazÄ±lÄ±p sonradan akÄ±ÅŸ diyagramÄ± hazÄ±rlanmalÄ±. 
+Ã‡Ã¼nkÃ¼ ilk Ã¶nce kod benzeri metinlerle daha anlaÅŸÄ±lÄ±r olucaÄŸÄ± kanÄ±tÄ±ndayÄ±m.
+
+
+
+3. Algoritma hazÄ±rlanÄ±rken dikkat edilmesi gereken hususlar
+
+
+-Ä°lk Ã¶nce hangi problem hakkÄ±nda yapÄ±lmasÄ± gereken bir plan yapÄ±lmalÄ± sonrasÄ±nda net ve anlaÅŸÄ±lÄ±r ÅŸekilde yazÄ±lmalÄ±dÄ±r. 
+sonrasÄ±nda adÄ±mlar sÄ±rasÄ±yla yapÄ±lmalÄ±dÄ±r ki karÄ±ÅŸmasÄ±n. 
+OperatÃ¶rler doÄŸru bir biÃ§imde kullanÄ±lmalÄ±dÄ±r. 
+hata kontrolleri yapÄ±lmalÄ±dÄ±r ki algoritmamÄ±z Ã§alÄ±ÅŸmasÄ± iÃ§in. 
+GEreksiz adÄ±mlar yerine kÄ±sa ve Ã¶z yazÄ±lmalÄ±dÄ±r. 
+Algoritma tasarlarken bu temel hususlara dikkat etmek, kodun daha okunaklÄ±, 
+dÃ¼zgÃ¼n Ã§alÄ±ÅŸan ve bakÄ±mÄ± kolay bir ÅŸekilde oluÅŸturulmasÄ±na yardÄ±mcÄ± olur.
+
+
+
+4.deÄŸiÅŸken nedir? programlarda neden deÄŸiÅŸkenlere ihtiyaÃ§ duyulmaktadÄ±r?
+
+
+-ProgramÄ±n her Ã§alÄ±ÅŸtÄ±rlmasÄ±nda, farklÄ± deÄŸerler alabilÅŸen bellek/veri/bilgi alanlarÄ± "deÄŸiÅŸken" olarak adlandÄ±rÄ±lÄ±r. 
+Kod da daha anlaÅŸÄ±lÄ±r olmasÄ±nÄ± saÄŸlar. Ã¶rneÄŸin koddaki 'yaÅŸÄ±nÄ±z' 'adÄ±nÄ±zsoyadÄ±nÄ±z' gibi deÄŸerleri oluÅŸturur.
+
+
+5. SayaÃ§lar nerelerde ve niÃ§in kullanÄ±lÄ±r?
+
+
+Programlarda bazÄ± iÅŸlemlerin belirli sayÄ±da yapÄ±lmasÄ± sayÄ±lmasÄ± gerekebilir. 
+Ã–rneÄŸin bir sessiz harf bulma programÄ± ilk Ã¶nce harfleri sÄ±raylarÄ± Ã§aÄŸÄ±rÄ±r ardÄ±ndan sessiz mi 
+yoksa sesli harf mi olduÄŸuna karar vererek kÃ¼meler.
+
+
+6. AlgoritmanÄ±n sonucunu bulun.
+
+baÅŸla
 T=0
 S=0
-eğer s>10 ise git 8 
+eÄŸer s>10 ise git 8 
 T=T+2*S
 S=S+2
 Git 4
 Yaz T
 Dur 
-T ve S'nin başlangıçtaki değeri 0 olur ardından her S>10 olduğu zaman s 8' e gider. Ancak bu şart hiçbir zaman sağlanmayacak, çünkü S başlangıçta 0'dır ve her adımda 2 birim artar. Yani S her zaman 10'dan küçük olacaktır. T değişkenine, 2 ile S değişkeninin çarpımı eklenir. Başlangıçta T=0 ve S=0 olduğu için bu işlem T'yi değiştirmez. git 4 ise 4. adıma git demektir. YAz T ise T'yi yazdır demektir.T her zaman 80 olacaktır çünkü S her zaman 10'dan küçük olacaktır. dur ise algoritmayı sonlandırır. Son olarak T=0 
+T ve S'nin baÅŸlangÄ±Ã§taki deÄŸeri 0 olur ardÄ±ndan her S>10 olduÄŸu zaman s 8' e gider. 
+Ancak bu ÅŸart hiÃ§bir zaman saÄŸlanmayacak, Ã§Ã¼nkÃ¼ S baÅŸlangÄ±Ã§ta 0'dÄ±r ve her adÄ±mda 2 birim artar. 
+Yani S her zaman 10'dan kÃ¼Ã§Ã¼k olacaktÄ±r. T deÄŸiÅŸkenine, 2 ile S deÄŸiÅŸkeninin Ã§arpÄ±mÄ± eklenir. 
+BaÅŸlangÄ±Ã§ta T=0 ve S=0 olduÄŸu iÃ§in bu iÅŸlem T'yi deÄŸiÅŸtirmez. git 4 ise 4. adÄ±ma git demektir. 
+YAz T ise T'yi yazdÄ±r demektir.T her zaman 80 olacaktÄ±r Ã§Ã¼nkÃ¼ S her zaman 10'dan kÃ¼Ã§Ã¼k olacaktÄ±r. 
+dur ise algoritmayÄ± sonlandÄ±rÄ±r. Son olarak T=0 
 
-7. Algoritmanın sonucunu hesaplayınız.
-Başla
+
+7. AlgoritmanÄ±n sonucunu hesaplayÄ±nÄ±z.
+
+BaÅŸla
 F=1
 S=20
-eğer S<1 ise git 9 
+eÄŸer S<1 ise git 9 
 S=S-3
 F=F+S
 F=F+2
-Gİt 4 
+GÄ°t 4 
 yaz F 
 Dur
-S=20 olduğu için sürekli 3 azalarak ielrleyecektir. Her adımda ise F'ye S eklenecek ve F'ye de 2 eklenekcektir. bunların hepsi yapıldığında ise F=20 olarak yazdırılır ve tamamlanır.
+S=20 olduÄŸu iÃ§in sÃ¼rekli 3 azalarak ielrleyecektir. Her adÄ±mda ise F'ye S eklenecek ve F'ye de 2 eklenekcektir. 
+bunlarÄ±n hepsi yapÄ±ldÄ±ÄŸÄ±nda ise F=20 olarak yazdÄ±rÄ±lÄ±r ve tamamlanÄ±r.
 
-8. girilen 3 sayıdan en büyünü bulan algoritma hazırlayınız
-başla 
-1. sayı=A 
-2. sayı=B
-3. sayı=C
-Eğer A>b ve A>C ise en büyük sayı yazdır ve bitir
-Eğer B>A ve B>C ise en büyük sayı yazdır bitir
-Eğer C>A ve C>B ise en büyük sayı yazdır bitir
+
+8. girilen 3 sayÄ±dan en bÃ¼yÃ¼nÃ¼ bulan algoritma hazÄ±rlayÄ±nÄ±z
+
+baÅŸla 
+1. sayÄ±=A 
+2. sayÄ±=B
+3. sayÄ±=C
+EÄŸer A>b ve A>C ise en bÃ¼yÃ¼k sayÄ± yazdÄ±r ve bitir
+EÄŸer B>A ve B>C ise en bÃ¼yÃ¼k sayÄ± yazdÄ±r bitir
+EÄŸer C>A ve C>B ise en bÃ¼yÃ¼k sayÄ± yazdÄ±r bitir
 Dur 
 
-9. Girilen 3 sayıyı küçükten büyüğe doğru sırala
-başla 
-1. sayı=A 
-2. sayı=B
-3. sayı=C
-Eğer A>b ve A>C ise en büyük sayı yazdır ve bitir
-Eğer A<b ve A<C ise en küçük sayı yazdır ve bitir
-eğer A<B A>C veya A>B A<c ise ortanca sayı olarak yazdır 
-Eğer B>A ve B>C ise en büyük sayı yazdır bitir
-Eğer B<A ve B<C ise en küçük sayı yazdır bitir
-Eğer B<A B>C veya B>A B<C ise ortanca sayı yazdır
-Eğer C>A ve C>B ise en büyük sayı yazdır bitir
-Eğer C<A ve C<B ise en küçük sayı yazdır bitir
-Eğer C>A C<B veya C<A C>B ise ortanca sayı yazdır 
+9. Girilen 3 sayÄ±yÄ± kÃ¼Ã§Ã¼kten bÃ¼yÃ¼ÄŸe doÄŸru sÄ±rala
+baÅŸla 
+
+1. sayÄ±=A 
+2. sayÄ±=B
+3. sayÄ±=C
+EÄŸer A>b ve A>C ise en bÃ¼yÃ¼k sayÄ± yazdÄ±r ve bitir
+EÄŸer A<b ve A<C ise en kÃ¼Ã§Ã¼k sayÄ± yazdÄ±r ve bitir
+eÄŸer A<B A>C veya A>B A<c ise ortanca sayÄ± olarak yazdÄ±r 
+EÄŸer B>A ve B>C ise en bÃ¼yÃ¼k sayÄ± yazdÄ±r bitir
+EÄŸer B<A ve B<C ise en kÃ¼Ã§Ã¼k sayÄ± yazdÄ±r bitir
+EÄŸer B<A B>C veya B>A B<C ise ortanca sayÄ± yazdÄ±r
+EÄŸer C>A ve C>B ise en bÃ¼yÃ¼k sayÄ± yazdÄ±r bitir
+EÄŸer C<A ve C<B ise en kÃ¼Ã§Ã¼k sayÄ± yazdÄ±r bitir
+EÄŸer C>A C<B veya C<A C>B ise ortanca sayÄ± yazdÄ±r 
 Dur 
+
+
+
+10. 
