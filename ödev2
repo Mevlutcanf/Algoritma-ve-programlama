@@ -1,0 +1,77 @@
+1. soru cevabı
+#include <stdio.h>
+
+int main() {
+    float a, b; // Değişkenleri float türünde tanımlayın.
+    printf("Toplamak istediğiniz iki sayıyı giriniz ve ardından 'enter' tuşuna basınız:\n");
+    scanf("%f %f", &a, &b); // Kesirli sayıları %f kullanarak alın.
+
+    float toplam = a + b; // İşlem sonucunu bir float değişkeninde saklayın.
+    printf("Toplam: %f\n", toplam); // Sonucu %f ile yazdırın.
+
+
+
+    return 0;
+}
+
+
+2. soru cevabı
+//Ekrana Merhaba Nasılsın? yazan program ---> bu yorum satırıdır. çift ters slaş yorum belirtmek için kullanılır.
+
+#include <stdio.h>                       ---> bu C kütüphanesine gider uygulamanın bizi C kütüphanesine yönelendirmewsini sağlar.
+
+int main()                               ---> C dilinde başlangıç noktasıdır. işlem yapılmaya başlanan ilk yerdir.
+
+{                                        ---> kodları bu süsülü parantez ile bitiş süslü parantezi içine yazarız. başlangıç süsülü parantezidir.
+
+printf("merhaba\n");                     ---> prinf komutu kdoları çalıştırdıktan sonra ekrana yazdırma işine yarar.parantez ve
+                                         ---> çift tırnak içine yazılan cümle ise ekranda görünecek kısımdır. \n ise cümleyi tek başına yanına diğer cümle 
+                                         ---> gelmemesi içindir. ; ise bu satırdaki kodun bittiğine işarettir.
+
+
+printf("Nasılsın");                      --->yukardaki ile aynı komutları içerir. Farklı olarak \n komutunu içermez. bundan sonraki gelecek cümleler
+                                         ---> bu cümleye bağlı oalrak gelir.
+
+
+return 0;                                ---> kodu tekrarlanmayacağını belirtir. kod 1 kere çalıştıktan sonra tekrarlamaz.
+}                                        ---> bitirici süsülü parantezdir. yazılan kodlar bu parantezden önceki satırlara yazılmalıdır.
+                                         
+
+
+
+
+
+
+
+
+
+7. soru cevabı
+a=8 b=15 c=109/12 il başta
+sonrasında b=15/2 a=11 ve sonr olarak a=11 b=15/2 c=109/12 olur.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
