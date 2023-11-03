@@ -2,12 +2,12 @@
 #include <stdio.h>
 
 int main() {
-    float a, b; // Değişkenleri float türünde tanımlayın.
+    float a, b; 
     printf("Toplamak istediğiniz iki sayıyı giriniz ve ardından 'enter' tuşuna basınız:\n");
-    scanf("%f %f", &a, &b); // Kesirli sayıları %f kullanarak alın.
+    scanf("%f %f", &a, &b); 
 
-    float toplam = a + b; // İşlem sonucunu bir float değişkeninde saklayın.
-    printf("Toplam: %f\n", toplam); // Sonucu %f ile yazdırın.
+    float toplam = a + b; 
+    printf("Toplam: %f\n", toplam); 
 
 
 
@@ -39,10 +39,55 @@ return 0;                                ---> kodu tekrarlanmayacağını belirt
 
 
 
+3. soru 
+Aşağıdakilerden hangisi yanlış değişken ismidir?
+
+a. Maas  --->doğru    
+b. Maas23---> doğru 
+c. maas$ ---> yanlıştır çünkü özel karakter içermektedir.
+d. 123_4 ---> doğru 
+e. MAAS ---> doğru 
+f. double ---> doğru
+g. maas_$ ---> yanlıştır çünkü özel karakter içermektedir.
+h. İf_123 ---> ?
+i. Maas_23 ---> doğru 
+j. le      ---> doğru 
+k. 23_maas ---> doğru 
+l. İnt     ---> doğru 
+
+
+4. soru 
+int toplam;
 
 
 
 
+5. soru 
+#include <stdio.h>
+
+int main() {
+    int a, b;
+
+    printf("İki tam sayı giriniz: ");
+    scanf("%d %d", &a, &b);
+
+    printf("Toplam: %d\n", a + b);
+
+
+
+
+
+
+
+
+
+    return 0;
+}
+
+
+6. soru
+ Cevap C'dir. Çünkü diğer kodların bazıları hiç çalışmamakta bazıları ise eksik çıktı vermektedir. Ama c yi koda yazdığımızda doğru olarak çalışıp 
+2 tane değer girilse bile 0 çıktısını vermektedir.
 
 
 7. soru cevabı
@@ -51,6 +96,11 @@ sonrasında b=15/2 a=11 ve sonr olarak a=11 b=15/2 c=109/12 olur.
 
 
 
+8 soru çıktısı 
+-27.38
+  -28.4
+  25
+290
 
 
 
