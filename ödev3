@@ -1,0 +1,95 @@
+soru1 
+
+#include <stdio.h>
+
+int main() {
+    int N, Terim1 = 1, Terim2 = 1, Terim3, i;
+
+    printf("Kaç terim yazdırmak istiyorsunuz? ");
+    scanf("%d", &N);
+
+    printf("%d\n", Terim1);
+    printf("%d\n", Terim2);
+
+    for(i = 2; i < N; i++) {
+        Terim3 = Terim1 + Terim2;
+        printf("%d\n", Terim3);
+        Terim1 = Terim2;
+        Terim2 = Terim3;
+    }
+
+    return 0;
+}
+
+
+soru 2 
+
+#include <stdio.h>
+
+int main() {
+    int gun;
+
+    printf("Bir sayı girin (1-7): ");
+    scanf("%d", &gun);
+
+    switch(gun) {
+        case 1:
+        printf("Pazartesi");
+        break;
+        case 2:
+        printf("Sali");
+        break;
+        case 3:
+        printf("Çarsamba");
+        break;
+        case 4:
+        printf("Persembe");
+        break;
+        case 5:
+        printf("Cuma");
+        break;
+        case 6:
+        printf("Cumartesi");
+        break;
+        case 7:
+        printf("Pazar");
+        break;
+        default:
+        printf("Geçersiz giris");
+        break;
+    }
+
+    return 0;
+}
+
+
+
+
+
+
+soru 3 
+
+#include <stdio.h>
+
+int main() {
+    int sayi1, sayi2, sayi3, enbuyuk;                                   
+
+    printf("Birinci sayiyi girin: ");
+    scanf("%d", &sayi1);
+
+    printf("İkinci sayiyi girin: ");
+    scanf("%d", &sayi2);
+
+    printf("Üçüncü sayiyi girin: ");
+    scanf("%d", &sayi3);
+
+    enbuyuk = (sayi1 > sayi2) ? (sayi1 > sayi3 ? sayi1 : sayi3) : (sayi2 > sayi3 ? sayi2 : sayi3);                 
+ //
+    printf("En buyuk sayi: %d", enbuyuk);
+
+    return 0;
+}
+
+ek açıklama  Soru işareti (?) C dilinde üçlü koşul operatörünü (ternary operator) temsil eder.
+Üçlü koşul operatörü, bir koşulu değerlendirir ve koşul doğru ise bir değeri, yanlış ise başka bir değeri döndürür.
+
